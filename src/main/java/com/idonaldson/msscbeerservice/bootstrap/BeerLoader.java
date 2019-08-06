@@ -2,13 +2,11 @@ package com.idonaldson.msscbeerservice.bootstrap;
 
 import com.idonaldson.msscbeerservice.domain.Beer;
 import com.idonaldson.msscbeerservice.repositories.BeerRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
-@RequiredArgsConstructor
 @Component
 public class BeerLoader implements CommandLineRunner {
 
